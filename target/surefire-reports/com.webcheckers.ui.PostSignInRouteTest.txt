@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.webcheckers.ui.PostSignInRouteTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.webcheckers.ui.PostSignInRouteTest
+successful  Time elapsed: 0 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+response.redirect("/");
+-> at com.webcheckers.ui.PostSignInRouteTest.successful(PostSignInRouteTest.java:73)
+Actually, there were zero interactions with this mock.
+
+	at com.webcheckers.ui.PostSignInRouteTest.successful(PostSignInRouteTest.java:73)
+

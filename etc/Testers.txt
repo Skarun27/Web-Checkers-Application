@@ -1,0 +1,7 @@
+1. Download the Repository.
+2. Extact the files
+3. Navigate to the repo cd terminal command
+4. Open using terminal run mvn compile exec:java
+5. Open the browser and type 127.0.0.1:4567
+   127.0.0.2:4567 for two instances.
+6. Go through the acceptance Criteria.
